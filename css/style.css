@@ -1,0 +1,117 @@
+body {
+    background-color: peachpuff;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    color: #2ab77e;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+button {
+    color: hotpink;
+}
+
+progress {
+    width: 200px;
+    height: 20px;
+}
+
+/* classes */
+.roomDark {
+    background-image: url("..//images/room_dark.png");
+    background-color: #592693;
+}
+
+.roomLight {
+    background-image: url("../images/room_light.png");
+    background-color: peachpuff;
+}
+
+.barList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.nice {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttonList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.buttonPet {
+    width: 100px;
+    height: 40px;
+}
+
+.buttonPlay {
+    width: 100px;
+    height: 40px;
+}
+
+.buttonClean {
+    width: 100px;
+    height: 40px;
+}
+
+.buttonFood {
+    width: 100px;
+    height: 40px;
+}
+
+.buttonLight {
+    width: 100px;
+    height: 40px;
+}
+
+.check {
+    width: 200px;
+    height: 40px;
+}
+
+.music{
+    width: 100px;
+    height: 40px;
+}
+
+.hardMode{
+    width: 100px;
+    height:40px;
+}
+
+.cat {
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.heart {
+    width: 2em;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
